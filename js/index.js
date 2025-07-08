@@ -62,8 +62,12 @@ function appStart() {
       if (입력한_글자 === 정답_글자) {
         맞은_개수 += 1;
         block.style.background = "green";
+        block.classList.add("moving_big");
       } else if (정답.includes(입력한_글자)) block.style.background = "yellow";
-      else block.style.background = "grey";
+      else {
+        block.style.background = "grey";
+        block.classList.add("moving_shake");
+      }
       block.style.color = "white";
 
       const keyBlock = document.querySelector(
