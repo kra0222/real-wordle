@@ -1,0 +1,31 @@
+header {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar {
+  width: 30px;
+}
+
+.header-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serifs;
+  padding-left: 60px;
+}
+
+.header-bar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar2 img {
+  width: 30px;
+}

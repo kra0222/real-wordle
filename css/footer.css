@@ -1,0 +1,37 @@
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.key div {
+  width: 35px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.key-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.key-block.special {
+  width: 50px;
+  font-size: 10px;
+}
+
+.key-block.special img {
+  width: 25px;
+}
