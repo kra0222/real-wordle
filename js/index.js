@@ -33,9 +33,8 @@ function appStart() {
 
   const displayGameover = () => {
     const div = document.createElement("div");
-    div.innerText = "게임이 종료되었습니다";
-    div.style =
-      "display:flex; justify-content:center; align-items:center; position:absolute; top:30vh; left:30vw; background-color:white; width:200px; height:150px;";
+    div.innerText = `게임이 종료되었습니다!!\n 정답: ${정답}`;
+    div.classList.add("overgame");
     document.body.appendChild(div);
   };
 
